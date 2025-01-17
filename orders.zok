@@ -1,0 +1,5 @@
+def main(private field orderId, field quantity, field totalCost, field productPrice) -> field{
+    field expectedTotalCost = quantity * productPrice ;
+    assert(totalCost == expectedTotalCost);
+    return orderId;
+}
